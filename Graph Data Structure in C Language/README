@@ -1,0 +1,43 @@
+/*********************************************************************************
+* Khushi Shah, khkshah
+* 2020 Fall CSE 101 PA4
+* README
+* Table of Contents for all files in this project
+*********************************************************************************/
+
+List.c
+	The main library file which creates the List ADT. Includes the NodeObj, ListObj, and 
+	Node structs. Implements all the functions of the List ADT as described in List.h 
+	using these structs.
+
+List.h
+	Header file containing the export pointer type as well as the the hearder declaration
+	for all functions in the List ADT as implemented in the List.c library. Also includes
+	all information regarding the pre and post contidions of the functions and the purpose
+	of the function.
+
+Graph.c
+	The main library file which implements the functions from Graph.h which create/destroy
+	a graph and it's transpose, as well as return information about the graph and also add
+	edges/arcs and perform DFS operations on the Graph.
+
+Graph.h
+	Header file containing the final export type for Graoh ADT as well as all the access
+	function and manipulation procedures for the ADT.
+
+GraphTest.c
+	Includes detailed tests for the Graph ADT as inplemented in Graph.c. It tests for all
+	corner cases. Some are tested fully computationally and some manually through the
+	terminal.
+
+FindPath.c
+	Reads the number of verticies and arcs from the infile and creates a graph from the
+	information. Then proceeds to print the graph in the outfile along with it's strongly
+	connected components.
+
+Makefile
+	Contains all the command line commands to compile and run List.c, Graph.c, 
+	GraphTest.c, and FindComponents.c
+
+README
+	Contians a detailed table of contents and descriptions of each file in the project folder.

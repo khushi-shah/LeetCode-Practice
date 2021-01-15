@@ -1,0 +1,33 @@
+/*********************************************************************************
+* Khushi Shah, khkshah
+* 2020 Fall CSE 101 PA5
+* README
+* Table of Contents for all files in this project
+*********************************************************************************/
+
+List.cpp
+	The main library file which creates the List ADT. Includes the NodeObj, ListObj, and 
+	Node structs. Implements all the functions of the List ADT as described in List.h 
+	using these structs.
+
+List.h
+	Header file containing the export pointer type as well as the the hearder declaration
+	for all functions in the List ADT as implemented in the List.cpp library. Also includes
+	all information regarding the pre and post contidions of the functions and the purpose
+	of the function.
+
+ListTest.cpp
+	Includes detailed tests for the List ADT as inplemented in List.cpp. It tests for all
+	corner cases. Some are tested fully computationally and some manually through the
+	terminal.
+
+Shuffle.cpp
+	Reads the command line input and returns the number of perfect shuffles required for
+	the deck to return to it's original state, for all deck sized 1-n;
+
+Makefile
+	Contains all the command line commands to compile and run List.cpp, ListTest.cpp, and
+	Shuffle.cpp
+
+README
+	Contians a detailed table of contents and descriptions of each file in the project folder.
